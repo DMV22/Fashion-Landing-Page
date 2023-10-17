@@ -1,3 +1,14 @@
+:root {
+  --textColor: #000;
+  --bgColor: #ebd96b;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+  color: var(--textColor);
+}
+
+.container {
+  max-width: 1720px;
+  margin: 0 auto;
 }
