@@ -1,0 +1,31 @@
+.arrivals {
+  margin-top: 70px;
+}
+
+.arrivals__title {
+  display: inline-block;
+  position: relative;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.04;
+  letter-spacing: 2.88px;
+  z-index: 1;
+}
+
+.arrivals__title::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -8px;
+  width: 186px;
+  height: 36px;
+  background-image: url("../../img/vector.svg");
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.cards {
+  margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+}
