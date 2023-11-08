@@ -2,7 +2,7 @@
   margin-top: 70px;
 }
 
-.arrivals__title {
+.title {
   display: inline-block;
   position: relative;
   font-size: 48px;
@@ -12,7 +12,7 @@
   z-index: 1;
 }
 
-.arrivals__title::after {
+.title::after {
   content: "";
   position: absolute;
   right: 0;

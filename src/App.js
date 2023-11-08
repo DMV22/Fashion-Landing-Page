@@ -4,6 +4,8 @@ import Promo from "./components/promo/Promo";
 import Brands from "./components/brands/Brands";
 import Arrivals from "./components/arrivals/Arrivals";
 import Banner from "./components/banner/Banner";
+import Favourites from "./components/favourites/Favourites";
+import Vouchers from "./components/vouchers/Vouchers";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Brands />
       <Arrivals />
       <Banner />
+      <Favourites />
+      <Vouchers />
     </>
   );
 }

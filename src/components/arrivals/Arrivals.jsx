@@ -9,7 +9,7 @@ const Arrivals = () => {
   return (
     <section className="arrivals">
       <div className="container">
-        <h2 className="arrivals__title">NEW ARRIVALS</h2>
+        <h2 className="arrivals__title title">NEW ARRIVALS</h2>
         <div className="cards">
           <Card title={"Hoodies & Sweetshirt"} img={Photo1} />
           <Card title={"Coats & Parkas"} img={Photo2} />
