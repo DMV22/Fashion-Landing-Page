@@ -6,6 +6,7 @@ import Arrivals from "./components/arrivals/Arrivals";
 import Banner from "./components/banner/Banner";
 import Favourites from "./components/favourites/Favourites";
 import Vouchers from "./components/vouchers/Vouchers";
+import Community from "./components/community/Community";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Banner />
       <Favourites />
       <Vouchers />
+      <Community />
     </>
   );
 }
