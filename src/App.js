@@ -7,6 +7,7 @@ import Banner from "./components/banner/Banner";
 import Favourites from "./components/favourites/Favourites";
 import Vouchers from "./components/vouchers/Vouchers";
 import Community from "./components/community/Community";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Favourites />
       <Vouchers />
       <Community />
+      <Footer />
     </>
   );
 }

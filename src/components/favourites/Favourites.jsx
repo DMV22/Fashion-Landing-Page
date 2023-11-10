@@ -8,7 +8,7 @@ const Favourites = () => {
   return (
     <section className="favourites__title">
       <div className="container">
-        <h2 className="favourites__title title">Young’s Favourite</h2>
+        <h2 className="favourites__title title-2">Young’s Favourite</h2>
         <div className="cards">
           <Card title={"Trending on instagram"} img={InfoPhoto1} />
           <Card title={"All Under $40"} img={InfoPhoto2} />

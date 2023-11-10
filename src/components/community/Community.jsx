@@ -5,10 +5,10 @@ const Community = () => {
     <section className="community">
       <div className="container">
         <div className="community-info">
-          <div className="h2 community-info__title">
+          <h2 className="community-info__title">
             JOIN SHOPPING COMMUNITY TO <br />
             GET MONTHLY PROMO
-          </div>
+          </h2>
           <p className="community-info__descr">
             Type your email down below and be young wild generation
           </p>
